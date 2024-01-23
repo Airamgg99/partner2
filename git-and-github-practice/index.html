@@ -1,0 +1,12 @@
+const school = {
+	name: 'Reboot',       // Normal Key
+	23: 'michael jordan', // Number Key
+	'fun stuff': true.    // String Key
+}
+
+// Both are ok
+console.log(school.name)     // Reboot
+console.log(school['name'])  // Reboot
+
+// Access a string property
+console.log(school[''])       // Working
